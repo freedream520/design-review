@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>技术评审提纲</title>
+<link rel="important stylesheet" href="chrome://messagebody/skin/messageBody.css">
+</head>
+<body>
+<br>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; ">
+</head>
+<body>
+<div class="" style="word-wrap:break-word">hi all:
+<div class="">上次组内技术评审发现有的同学对评审需要准备的内容不是很清楚，我整理了一个技术评审的提纲，下午周会的时候大家可以讨论下，定稿之后会更新到wiki上，以后写技术评审文档时可以作为参考。</div>
+<div class=""><br class="">
+</div>
+<div class="">
+<h1 class="" style="margin-right:0px; margin-bottom:10px; margin-left:0px; padding:0px; font-size:28px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255); margin-top:0px!important">
+技术评审提纲</h1>
+<h2 class="" style="margin:0px 0px 10px; padding:0px; font-size:24px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:rgb(204,204,204); font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+现状</h2>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+业务背景</h3>
+<ul class="" style="margin:15px 0px; padding-left:30px; font-family:Helvetica,arial,sans-serif; font-size:14px; line-height:22px; background-color:rgb(255,255,255)">
+<li class="" style="margin:0px">项目名称</li><li class="" style="margin:0px">业务描述
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<div class="" style="margin:0px">如果不是微博主业务可以考虑结合截图等方式展示业务。</div>
+</blockquote>
+</li></ul>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+技术背景</h3>
+<ul class="" style="margin:15px 0px; padding-left:30px; font-family:Helvetica,arial,sans-serif; font-size:14px; line-height:22px; background-color:rgb(255,255,255)">
+<li class="" style="margin:0px">架构描述
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<div class="" style="margin:0px">描述当前系统架构</div>
+</blockquote>
+</li><li class="" style="margin:0px">调用量</li><li class="" style="margin:0px">容量
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<div class="" style="margin:0px">容量和调用量需要给出当前线上的数据</div>
+</blockquote>
+</li></ul>
+<h2 class="" style="margin:20px 0px 10px; padding:0px; font-size:24px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:rgb(204,204,204); font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+改造内容</h2>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+业务需求</h3>
+<ul class="" style="margin:15px 0px; padding-left:30px; font-family:Helvetica,arial,sans-serif; font-size:14px; line-height:22px; background-color:rgb(255,255,255)">
+<li class="" style="margin:0px">描述业务需求，尽量突出与之前不同的点</li></ul>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+性能需求</h3>
+<ul class="" style="margin:15px 0px; padding-left:30px; font-family:Helvetica,arial,sans-serif; font-size:14px; line-height:22px; background-color:rgb(255,255,255)">
+<li class="" style="margin:0px">预估调用量</li><li class="" style="margin:0px">预估容量
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<div class="" style="margin:0px">预估时要根据业务实际情况考虑峰值情况，无特殊情况可以按3倍或5倍评估</div>
+</blockquote>
+</li></ul>
+<h2 class="" style="margin:20px 0px 10px; padding:0px; font-size:24px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:rgb(204,204,204); font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+方案描述</h2>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+方案1</h3>
+<ul class="" style="margin:15px 0px; padding-left:30px; font-family:Helvetica,arial,sans-serif; font-size:14px; line-height:22px; background-color:rgb(255,255,255)">
+<li class="" style="margin:0px">概述</li><li class="" style="margin:0px">详细说明
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<p class="" style="margin:0px 0px 15px">方案的具体描述，文字描述不清楚的话可以结合图片等方式说明，如果是改造方案最好突出变动的地方，以下列举了几种描述的角度：</p>
+<blockquote class="" style="margin:15px 0px 0px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px">
+<ul class="" style="margin:0px; padding-left:30px">
+<li class="" style="margin:0px">架构图（应用服务器、缓存、存储、队列等）</li><li class="" style="margin:0px">数据结构及拆分策略</li><li class="" style="margin:0px">数据一致性策略</li><li class="" style="margin:0px">容灾策略</li></ul>
+</blockquote>
+</blockquote>
+</li><li class="" style="margin:0px">性能评估
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<p class="" style="margin:0px 0px 15px">给出方案的基准数据，并按性能需求评估需要使用的资源数量</p>
+<blockquote class="" style="margin:15px 0px 0px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px">
+<ul class="" style="margin:0px; padding-left:30px">
+<li class="" style="margin:0px">单机并发量</li><li class="" style="margin:0px">单机容量</li><li class="" style="margin:0px">扩展方式</li><li class="" style="margin:0px">预估资源数量(mc、redis、db、应用服务器等)</li></ul>
+</blockquote>
+</blockquote>
+</li><li class="" style="margin:0px">工作量评估
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<div class="" style="margin:0px">描述使用这种方案需要做的具体工作，并评估开发、测试等需要的时间</div>
+</blockquote>
+</li><li class="" style="margin:0px">方案优缺点
+<blockquote class="" style="margin:0px 0px 15px; border-left-width:4px; border-left-style:solid; border-left-color:rgb(221,221,221); padding:0px 15px; color:rgb(119,119,119)">
+<div class="" style="margin:0px">列出方案的优缺点，优缺点要具有确定性，不要有“存在一定风险”这种描述。</div>
+</blockquote>
+</li></ul>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+方案2</h3>
+<h3 class="" style="margin:20px 0px 10px; padding:0px; font-size:18px; font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+方案3</h3>
+<h2 class="" style="margin:20px 0px 10px; padding:0px; font-size:24px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:rgb(204,204,204); font-family:Helvetica,arial,sans-serif; background-color:rgb(255,255,255)">
+总结</h2>
+<ul class="" style="margin-top:15px; margin-right:0px; margin-left:0px; padding-left:30px; font-family:Helvetica,arial,sans-serif; font-size:14px; line-height:22px; background-color:rgb(255,255,255); margin-bottom:0px!important">
+<li class="" style="margin:0px">描述倾向的方案，并给出选择这种方案的理由</li></ul>
+<div class=""><br class="">
+</div>
+<div class="">例子：</div>
+<div class=""></div>
+</div>
+</div>
+<div class="" style="word-wrap:break-word">
+<div class="">
+<div class=""></div>
+<div class=""><br class="">
+</div>
+<div class="">
+<div class="" style="color:rgb(0,0,0); letter-spacing:normal; orphans:auto; text-align:start; text-indent:0px; text-transform:none; white-space:normal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class="" style="color:rgb(0,0,0); letter-spacing:normal; orphans:auto; text-align:start; text-indent:0px; text-transform:none; white-space:normal; widows:auto; word-spacing:0px; word-wrap:break-word">
+</div>
+</div>
+</div>
+<br class="">
+</div>
+</div>
+</body>
+</html>
+</body>
+</html>
